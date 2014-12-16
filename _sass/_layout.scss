@@ -1,0 +1,104 @@
+code, pre {
+  font-family: Consolas, "Consolas for Powerline", "Courier New", Courier, monospace;
+  font-size: .875em;
+  background: $color-light-gray;
+  line-height: 1;
+}
+
+pre {
+  padding: 1em;
+}
+
+.container {
+  width: 92%;
+  margin: 0 auto;
+  overflow: hidden;
+  @include breakpoint(small) {
+    max-width: 30em;
+  }
+}
+
+.lede {
+  font-size: 1.618em;
+  line-height: 1.2;
+  font-style: italic;
+  margin-top: 1em;
+}
+
+.meta {
+  text-align: center;
+  font-size: .75em;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+
+small {
+  display: block;
+  line-height: 1.5;
+}
+
+.home {
+  .container {
+    max-width: 45em;
+  }
+
+  .onethird {
+    padding-top: 2.618em;
+    @include breakpoint(small) {
+      float: left;
+      width: 30%;
+    }
+  }
+
+  .twothirds {
+    @include breakpoint(small) {
+      float: left;
+      width: 65%;
+      border-right: 2px solid $color-light-gray;
+      margin-right: 5%;
+      padding-right: 5%;
+      padding-bottom: 1.618em;
+    }
+  }
+}
+
+.home h3 a {
+  color: #222;
+  // font-weight: 400;
+}
+
+header[role=banner] {
+  overflow: hidden;
+  padding: 1em 0;
+  background: $color-light-gray;
+  // font-family: $type-title;
+  .container {
+    max-width: inherit;
+  }
+  .site-title {
+    float: left;
+  }
+
+  a {
+    text-decoration: none;
+    background: none;
+    color: #555;
+    text-shadow: none;
+  }
+
+  nav {
+    float: right;
+    a {
+      padding-left: 1em;
+    }
+  }
+}
+
+footer {
+  background: $color-light-gray;
+  padding: 2.618em 0;
+  text-align: center;
+  a {
+    text-shadow: none;
+  }
+}

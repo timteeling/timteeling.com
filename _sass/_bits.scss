@@ -1,0 +1,29 @@
+/* Variables test */
+
+$type-heading: lato, sans-serif;
+$type-body: lato, sans-serif;
+
+$color-light-gray: #f5f5f5;
+$color-link: #e0470d;
+
+/* Mixins */
+
+@mixin breakpoint($point) {
+  @if $point == large {
+    @media (min-width: 64em) { @content; }
+  }
+  @else if $point == medium {
+    @media (min-width: 45em) { @content; }
+  }
+  @else if $point == small {
+    @media (min-width: 38em)  { @content; }
+  }
+}
+
+
+/* Helpers */
+
+.alignleft {
+  float: left;
+  margin-right: 1.618em;
+}
