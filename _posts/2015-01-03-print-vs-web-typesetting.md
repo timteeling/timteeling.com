@@ -62,3 +62,5 @@ Looks like there is a [proposal](http://css-tricks.com/almanac/properties/h/hang
         hanging-punctuation: first;
     }
 
+### Will anything catch on?
+As time passes browsers will implement and make possible most of today's limitations. Other new developments like Flexbox, CSS Shapes, and CSS Regions will further make layouts on the web more like print. Each new redesign brings print and web closer together.
