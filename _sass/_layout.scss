@@ -1,5 +1,5 @@
 code, pre {
-  font-family: Consolas, "Consolas for Powerline", "Courier New", Courier, monospace;
+  font-family: monaco, Consolas, "Consolas for Powerline", "Courier New", Courier, monospace;
   font-size: .875em;
   background: $color-light-gray;
   line-height: 1;
@@ -18,11 +18,16 @@ pre {
   }
 }
 
+.post-header {
+  margin-bottom: 2em;
+}
+
 .lede {
-  font-size: 1.618em;
+  font-size: 1.333em;
   line-height: 1.2;
   font-style: italic;
-  margin-top: 1em;
+  color: #999;
+  font-weight: 300;
 }
 
 .meta {

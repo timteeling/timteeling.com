@@ -22,10 +22,12 @@ html {
 
 body {
   margin: 0;
-  color: #555;
+  color: #333;
   font: 87.5%/1.618 $type-body;
   font-weight: 400;
   text-rendering: optimizeLegibility;
+  -webkit-font-feature-settings: "liga", "kern";
+  font-feature-settings: "liga", "kern";
   @include breakpoint(small) {
     font-size: 100%;
   }
@@ -139,10 +141,6 @@ a:hover {
   outline: 0;
 }
 
-p {
-  margin: 0 0 1.618em;
-}
-
 /* Text-level semantics
    ========================================================================== */
 
@@ -177,41 +175,59 @@ dfn {
  * contexts in Firefox 4+, Safari, and Chrome.
  */
 
-h1,h2,h3,h4 {
-  line-height: 1.2;
+p {
+  margin: 0 0 1.3em;
+}
+
+h1, h2, h3, h4, h5, h6 {
   font-family: $type-heading;
-  font-weight: 400;
-  color: #111;
-  //text-transform: lowercase;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 1.414em 0 0.5em;
+  color: #999;
 }
 
 h1 {
-  font-size: 2.618em;
+  font-size: 2.369em;
   @include breakpoint(small) {
-    font-size: 4.236em;
+    font-size: 3.157em;
   }
-  margin: .809em auto .4045em;
   text-align: center;
+  margin: 1em auto .5em;
   font-family: $type-heading;
-  font-weight: 400;
-  //text-transform: uppercase;
+  font-weight: 300;
+  color: #333;
   width: 92%;
   max-width: 11em;
 }
 
 h2 {
-  font-size: 2.618em;
-  margin: 1.618em 0 .20225em;
+  font-size: 2.369em;
 }
 
 h3 {
-  font-size: 1.618em;
-  margin: 1.618em 0 .20225em;
+  font-size: 1.777em;
 }
 
 h4 {
-  
+  font-size: 1.333em;
+  font-weight: 400;
 }
+
+h5,
+h6 {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  font-weight: 400;
+}
+
+h6,
+small,
+.font_small {
+  font-size: 0.75em;
+}
+
 
 /**
  * Address styling not present in IE 8/9.
