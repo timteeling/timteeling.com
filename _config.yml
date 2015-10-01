@@ -1,6 +1,6 @@
 # Site settings
 title: Tim Teeling
-url: "http://timteeling.com"
+baseurl: "/timteeling.com"
 permalink: /:title
 
 # Build settings
