@@ -1,0 +1,60 @@
+.home {
+  height: 100vh;
+
+  nav {
+    margin: auto;
+  }
+
+  nav a {
+    margin: .75em;
+    font-size: 1.25em;
+    display: inline;
+  }
+
+  h1 {
+    font-size: 12vw;
+    padding: .75em;
+
+    margin: auto;
+    color: $color-primary;
+    background: #fff;
+    position: relative;
+    font-weight: 700;
+    &:after {
+      content: '';
+      border: .125rem solid rgba(0,0,0,.075);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: .0625em;
+      left: .0625em;
+    }
+    &:before {
+      content: '';
+      border: .125rem solid rgba(0,0,0,.075);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: -.0625em;
+      left: -.0625em;
+    }
+
+    @include breakpoint(small){
+      font-size: 10vw;
+      padding: 1em;
+      &:after {
+        border-width: .25rem;
+      }
+      &:before {
+        border-width: .25rem;
+      }
+    }
+  }
+
+}
+
+.home-content {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
