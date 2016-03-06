@@ -3,6 +3,7 @@
 
   nav {
     margin: auto;
+    text-align: center;
   }
 
   nav a {
@@ -14,6 +15,8 @@
   h1 {
     font-size: 12vw;
     padding: .75em;
+    text-align: center;
+    width: 90%;
 
     margin: auto;
     color: $color-primary;
@@ -48,6 +51,12 @@
       &:before {
         border-width: .25rem;
       }
+    }
+
+    @include breakpoint(large){
+      -webkit-animation-name: rollIn;
+      animation-name: rollIn;
+      width: inherit;
     }
   }
 

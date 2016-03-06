@@ -31,6 +31,7 @@ pre {
 
 header[role=banner] {
   padding: 2em;
+  position: relative;
   width: 90%;
   margin: 1em auto;
   border: .25rem solid rgba(0,0,0,.075);
@@ -54,6 +55,8 @@ header[role=banner] {
     top: 1em;
     left: 1em;
     position: fixed;
+    -webkit-animation-name: rollIn;
+    animation-name: rollIn;
     nav a {
       display: block;
       margin: 0;

@@ -1,10 +1,12 @@
 # Site settings
 title: Tim Teeling
 url: "http://timteeling.com"
-permalink: /:title
+permalink: /:title/
 
 # Build settings
 markdown: kramdown
 
 sass:
     style: :compressed
+
+exclude: [README.md]
