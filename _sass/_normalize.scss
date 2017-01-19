@@ -22,21 +22,14 @@ html {
 
 body {
   margin: 0;
-  color: #333;
-  font: 87.5%/1.618 $type-body;
+  color: $color-body;;
+  font: 112.5%/1.5 $type-body;
   font-weight: 400;
   text-rendering: optimizeLegibility;
   -webkit-font-feature-settings: "liga", "kern";
   font-feature-settings: "liga", "kern";
+
   @include breakpoint(small) {
-    font-size: 100%;
-  }
-
-  @include breakpoint(medium) {
-    font-size: 112.5%;
-  }
-
-  @include breakpoint(large) {
     font-size: 125%;
   }
 }
@@ -105,32 +98,14 @@ template {
  * Remove the gray background color from active links in IE 10.
  */
 
-a {
-  background: transparent;
-}
-
-a {
-  text-decoration: none;
-  color: $color-link;
-  &:hover {
-    color: darken($color-link, 10%);
-  }
-  background-image: linear-gradient(to bottom,transparent 50%,#ddd 50%);
-  background-repeat: repeat-x;
-  background-size: 2px 2px;
-  background-position: 0 95%;
-  text-shadow:  1px 0 white,
-                2px 0 white,
-                -1px 0 white,
-                -2px 0 white;
-  transition:   color .1s ease-in-out,
-                border .1s ease-in-out,
-                background .1s ease-in-out,
-                opacity .1s ease-in-out;
-  h3 & {
-    background-position: 0 96%;
-  }
-}
+ a {
+   font-weight: bold;
+   color: $color-link;
+   text-decoration: none;
+   &:hover {
+     text-decoration: underline;
+   }
+ }
 
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
@@ -176,50 +151,44 @@ dfn {
  */
 
 p {
-  margin: 0 0 1.3em;
+  margin: 0 0 1.5em;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $type-heading;
-  font-weight: 300;
   line-height: 1.2;
   margin: 1.414em 0 0.5em;
-  color: #999;
+  color: $color-primary;
 }
 
 h1 {
-  font-size: 2.369em;
+  font-size: 2.25em;
   @include breakpoint(small) {
-    font-size: 3.157em;
+    font-size: 2.5em;
   }
-  text-align: center;
   margin: 1em auto .5em;
   font-family: $type-heading;
-  font-weight: 300;
-  color: #333;
-  width: 92%;
-  max-width: 11em;
+  color: $color-body;
+  line-height: 1.1;
 }
 
 h2 {
-  font-size: 2.369em;
+  font-size: 1.75em;
 }
 
 h3 {
-  font-size: 1.777em;
+  font-size: 1.5em;
 }
 
 h4 {
-  font-size: 1.333em;
+  font-size: 1.25em;
   font-weight: 400;
 }
 
 h5,
 h6 {
   font-size: 1em;
-  text-transform: uppercase;
   letter-spacing: .05em;
-  font-weight: 400;
 }
 
 h6,

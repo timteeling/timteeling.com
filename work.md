@@ -1,19 +1,8 @@
 ---
-layout: default
-title: "Work"
+layout: page
+title: Work
 permalink: /work/
-style: |
-  h1, footer {
-    background: #45b8ac;
-  }
-
-  a {
-    color: #45b8ac;
-  }
 ---
-
-<h1>Work</h1>
-<div class="container">
 
 <img src="/img/tenable-devices.png" alt="tenable-devices" width="800" height="450" class="alignnone size-full wp-image-387" />
 <h2><a href="http://tenable.com">Tenable Network Security</a></h2>
@@ -23,5 +12,3 @@ style: |
 <h2><a href="http://wfuv.org">WFUV Radio</a></h2>
 <p>I worked at WFUV while I was in grad school at Fordham University. Redesigning WFUV was my first time working with Drupal as well as being my first production site using responsive web design. Thankfully, I had my coworker, <a href="http://jamesohara.net">Jim O'Hara</a> to show me the ropes when it came to Drupal.</p>
 <p>Together, we drastically changed how WFUV was represented on the web. We brought audio and video content to the forefront of the site along with integrating the NPR API to pull in syndicated coverage of news and music events.</p>
-
-</div>

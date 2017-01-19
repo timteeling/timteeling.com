@@ -1,6 +1,8 @@
 # Site settings
 title: Tim Teeling
-baseurl: "/timteeling.com"
+url: "http://timteeling.com"
+permalink: /:title/
+baseurl: ""
 permalink: /:title
 
 # Build settings
@@ -8,3 +10,5 @@ markdown: kramdown
 
 sass:
     style: :compressed
+
+exclude: [README.md]
