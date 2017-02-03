@@ -6,6 +6,13 @@
     <meta name="description" content="{{ site.description }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
+    {% if page.title != 'About Me' %}
+    {% elsif page.title != 'Work' %}
+    {% elsif page.title != '' %}
+    {% else %}
+      <link rel="amphtml" href="https://mercury.postlight.com/amp?url={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    {% endif %}
+
     <!-- Custom CSS -->
     <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
