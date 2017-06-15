@@ -1,6 +1,8 @@
 {
     "name": "Tim Teeling",
     "short_name": "Tim Teeling",
+    "description": "Worker of the web living in Baltimore, MD",
+    "start_url": "/",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
