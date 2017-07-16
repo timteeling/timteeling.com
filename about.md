@@ -5,7 +5,7 @@ permalink: /about/
 slug: about
 ---
 
-<p><img src="/img/tim-teeling.jpg" alt="Tim Teeling" class="alignleft" style="width: 40%"/>I'm Tim Teeling. I'm a web designer living in Portland, OR working for <a href="http://tenable.com">Tenable Network Security</a> where I deal with front end development for our main Drupal site and I dabble in product UI design as well.</p>
+<p><img src="/img/tim-teeling.jpg" alt="Tim Teeling" class="alignleft" style="width: 40%"/>I'm Tim Teeling. I'm a web designer living in Baltimore, MD working for <a href="http://tenable.com">Tenable</a> where I deal with front end development for our main Drupal site and I dabble in product UI design as well.</p>
 
 <p>I moonlight teaching about the web at Loyola University Maryland. You can follow my courses at <a href="http://learningthemodernweb.com">LearningtheModernWeb.com.</a></p>
 
