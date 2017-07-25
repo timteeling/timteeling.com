@@ -1,6 +1,6 @@
 ---
 ---
-var cacheName = 'timteeling:0002';
+var cacheName = 'timteeling:0003';
 var cacheFiles = [
   {% for post in site.posts %}'{{ post.url }}',{% endfor %}
   '/',
@@ -52,7 +52,7 @@ self.addEventListener('fetch', function(event) {
 // Empty out any caches that don’t match the ones listed.
 self.addEventListener('activate', function(event) {
 
-  var cacheWhitelist = ['timteeling:0002'];
+  var cacheWhitelist = [cacheName];
 
   event.waitUntil(
     caches.keys().then(function(cacheNames) {
