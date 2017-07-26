@@ -1,6 +1,6 @@
 ---
 ---
-var cacheName = 'timteeling:0005';
+var cacheName = 'timteeling:0006';
 var cacheFiles = [
   {% for post in site.posts %}'{{ post.url }}',{% endfor %}
   '/',

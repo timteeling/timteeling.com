@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The tools we use are not as friendly as the websites we make"
+title:  "The Tools We Use Are Not As Friendly As the Websites We Make"
 date:   2015-08-27 15:00:00
 published: true
 ---
