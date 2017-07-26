@@ -3,7 +3,6 @@ title: Tim Teeling
 url: "http://timteeling.com"
 permalink: /:title/
 baseurl: ""
-permalink: /:title
 
 # Build settings
 markdown: kramdown

@@ -1,6 +1,6 @@
 ---
 ---
-var cacheName = 'timteeling:0003';
+var cacheName = 'timteeling:0004';
 var cacheFiles = [
   {% for post in site.posts %}'{{ post.url }}',{% endfor %}
   '/',
@@ -11,10 +11,6 @@ var cacheFiles = [
   '/css/main.css'
 ];
 
-
-
-
-
 self.addEventListener('install', function(event) {
   event.waitUntil(
     caches.open(cacheName)
@@ -24,10 +20,6 @@ self.addEventListener('install', function(event) {
       })
   );
 });
-
-
-
-
 
 self.addEventListener('fetch', function(event) {
   event.respondWith(
@@ -44,10 +36,6 @@ self.addEventListener('fetch', function(event) {
     })
   );
 });
-
-
-
-
 
 // Empty out any caches that don’t match the ones listed.
 self.addEventListener('activate', function(event) {

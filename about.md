@@ -5,10 +5,10 @@ permalink: /about/
 slug: about
 ---
 
-<p><img src="/img/tim-teeling.jpg" alt="Tim Teeling" class="alignleft" style="width: 40%"/>I'm Tim Teeling. I'm a web designer living in Baltimore, MD working for <a href="http://tenable.com">Tenable</a> where I deal with front end development for our main Drupal site and I dabble in product UI design as well.</p>
+<p><img src="/img/tim-and-henry.jpg" alt="Tim Teeling" class="alignleft" style="width: 40%"/> I'm Tim Teeling, an award-winning web worker living in Baltimore, MD working at <a href="https://www.tenable.com">Tenable</a>.</p>
 
-<p>I moonlight teaching about the web at Loyola University Maryland. You can follow my courses at <a href="http://learningthemodernweb.com">LearningtheModernWeb.com.</a></p>
+<p>I'm obsessed with the web. I'm constantly tinkering, building, reading and learning. Currently obsessing over <a href="/service-workers">service workers</a>, maintainable design systems and security.</p>
 
-<p>While I'm obsessed with the web, I also have a particular interest in photography and videography. You can find me having a hand in a bunch of things on <a href="http://www.youtube.com/results?search_query=%22tim+teeling%22&search_sort=video_view_count&search_type=videos">YouTube</a> from WFUV as well as on <a href="http://www.flickr.com/search/?q=%22tim%20teeling%22">Flickr.</a></p>
+<p>I like to teach and share with others. I've taught elementary students and <a href="http://learningthemodernweb.com">college students</a> how to code. (You'll have to ask me in person which group surprises me more).</p>
 
-<p>I've also had the fortune of having some of my work being picked up and published by <a href="http://www.npr.org/search/index.php?searchinput=%22tim+teeling%22&dateId=0&programId=0">NPR Music</a></p>
+<p>When I'm away from my computer, my dog Henry keeps me busy on hiking trails around the area.</p>
